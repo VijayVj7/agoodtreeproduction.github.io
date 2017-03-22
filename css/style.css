@@ -1,0 +1,20 @@
+body{
+	background-color: #67C9F3;
+	text-align: center;
+}
+.wrapper{
+	width:300px;
+	height: 300px;
+	text-align: center !important;
+
+}
+.image{
+	margin-left: 100%;
+	margin-right: auto;
+	width:200px;
+	height: 200px;
+	text-align: center !important;
+
+	transform: scaleX(1.2,3);
+
+}

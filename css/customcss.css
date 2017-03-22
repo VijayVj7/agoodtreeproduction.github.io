@@ -1,0 +1,265 @@
+html,body{
+  height:100%;
+  width:100%;
+}
+
+a{
+ text-decoration: none !important; 
+ transition: color 0.5s ease;
+
+}
+
+a:hover{
+ color: black !important;
+}
+
+.li_tr {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding-top: 70px;
+  padding-right: 40px;
+  font-size: 30px;
+  transition:font-color 0.5s ease;
+}
+
+.li_tr:hover{
+  font-color:white;
+}
+
+.sliding_l_r{
+  display: inline-block;
+  
+}
+
+.sliding_l_r:after{
+  content:'';
+  display:block;
+  height: 2px;
+  width: 0px;
+  background-color: orange;
+
+  transition: width 0.5s ease,background-color 2s ease;
+
+}
+  
+.sliding_l_r:hover:after{
+  width: 100%;
+  background-color: white;
+}
+#brand-style{
+  font-family: 'Shadows Into Light', cursive !important;
+  font-size:20px;
+}
+.pageOne_header{
+   /* background-image: url("./pageone_cover.jpg"); */
+	  background-size:cover;
+    background-color:#33D3A0;
+    height:60%;
+    margin: 10px;
+
+}
+.page_one_remaining_body{
+  margin: 10px;
+  background-color: #CCCCCC;
+  height: 60%;
+}
+
+.panel{
+  position: absolute;
+  border-style:inset !important;
+  border-color:black !important;
+  border-radius:1% !important;
+  border-width: 5px !important;
+  margin-top:5%;
+  margin-left:;
+  margin-right:;
+  width:1000px;
+  height: 40%;
+}
+
+
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+
+p.contact-us{
+  text-align: center;
+  font-size: 30px !important;
+  color: white;
+}
+.link-website{
+
+  margin-top: 50px;
+  color: #58F02C !important;
+}
+li {
+  display: inline;
+}
+.site-footer{
+  background-color: #6E2607;
+  //display: flex;
+}
+.list-inline {
+  display: flex;
+}
+.footer-elements{
+  //padding-right: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-top: 10px;
+
+
+}
+.footer-elements a {
+  text-align: center;
+  font-size:40px;
+  margin-right: 10px;
+  padding:15px ;
+}
+
+.icon{
+ padding: 15px 5px 15px 5px;
+}
+
+.btn-outline{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  width: 50%;
+  background-color:none;
+  transition:background-color 0.5s ease-in-out;
+
+}
+.btn-outline:hover{
+background-color:#fff;
+}
+
+.green-color{
+  color:#58F02C;
+}
+/*
+.block-works{
+    position:absolute;
+   	background-color: black;
+	  opacity: 0.8;
+	  padding-right: auto;
+	  display:block;
+    width:40%;
+   	margin-top: 100px;
+    margin-bottom:100px;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	border-radius: 7px;
+  	height: 250px;
+    transition: width 2s;
+    border-radius:0px 50px;
+    overflow: hidden;
+    
+}
+.block-works:hover{
+  width:90%;
+  transition-delay: 0.6s;
+}
+.block-about-us{
+    position:absolute;
+   	background-color: black;
+	  opacity: 0.8;
+	  padding-right: auto;
+	  display:block;
+    width:40%;
+   	margin-top: 100px;
+    margin-bottom:100px;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	border-radius: 7px;
+  	height: 200px;
+    transition: width 2s;
+    border-radius:0px 50px;
+    
+}
+.block-about-us:hover{
+  width:90%;
+  transition-delay: 0.6s;
+}
+
+.block-contact-us{
+    text-align: center !important;
+    position:absolute;
+    background-color: black;
+    display:block;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 7px;
+    height: 200px;
+    width: 60%;
+    border-radius:0px 50px;
+    overflow: hidden;
+}
+
+
+.work1{
+  font-family: 'Shanti', sans-serif;
+  color:white;
+  font-size:20px;
+  margin-left:5%;
+  margin-top: 5%;
+
+  padding-top: 0px;
+  
+}
+
+.work2{
+  font-family: 'Shanti', sans-serif;
+  color:white;
+  font-size:20px;
+  margin-left:5%;
+}
+.work{
+  font-family: 'Shanti', sans-serif;
+  color:white;
+  font-size:20px;
+  margin-left:10%;
+}
+
+
+.letter-F{
+  font-family: 'Denk One', sans-serif;
+  font-size:50px;
+  color:#6285F2;
+}
+h1{
+	padding: 0;
+	margin-top: 0px;
+}
+
+
+.btn-default:focus, .btn-default:hover{
+	background: black !important;
+	color: #0D9E69;
+	font-family: 'Barrio', cursive;
+	border-radius: 0px;
+	font-size: 20px !important;
+  background-image:none !important;
+}
+
+#header_text{
+	font-family: 'Boogaloo', cursive;
+	color: white;
+	} 	
+
+  .img-responsive{
+    border-radius: 50%;
+    height: 70% !important;
+    margin:auto;
+    
+  }
+  p{
+
+    margin:auto;
+  }
+  */
